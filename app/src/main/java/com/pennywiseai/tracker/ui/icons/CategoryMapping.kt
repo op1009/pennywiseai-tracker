@@ -93,6 +93,11 @@ object CategoryMapping {
         "starbucks",
         "haldiram",
         "barbeque",
+        "wow momo",
+        "baskin robins",
+        "subway",
+        "mess",
+        "canteen"
 
         //Thailand
         "foodpanda thailand",
@@ -300,6 +305,8 @@ object CategoryMapping {
         "more",
         "grocery",
         "dunzo",
+        "mothers dairy",
+        "country delight",
         "careem groceries",
         "careem quik",
         // Dubai / uae grocieries
@@ -369,7 +376,7 @@ object CategoryMapping {
     )
 
     private val TRANSPORT = setOf(
-        "uber", "ola", "rapido", "metro", "irctc", "redbus", "makemytrip",
+        "uber", "ola", "rapido", "metro", "irctc", "redbus", "makemytrip", "meru", "shoffr", "namma yatri"
         "goibibo", "petrol", "fuel", "parking", "toll", "fastag",
         "indigo", "air india", "spicejet", "vistara", "cleartrip",
         "careem ride", "careem hala ride", "yango",
@@ -420,7 +427,7 @@ object CategoryMapping {
     private val SHOPPING = setOf(
         "amazon", "flipkart", "myntra", "ajio", "nykaa", "meesho",
         "snapdeal", "shopclues", "firstcry", "pepperfry", "urban ladder",
-        "store", "mart"
+        "store", "mart", "zudio", "trends", "westside", "ikea", "croma", "relaince digital", "vijay sales"
     )
     private val SHOPPING_EXCLUDE = setOf("jiomart", "dmart")
 
@@ -686,7 +693,7 @@ object CategoryMapping {
     private val EDUCATION = setOf(
         "byju", "unacademy", "vedantu", "coursera", "udemy", "upgrade",
         "school", "college", "university", "toppr", "udacity", "simplilearn",
-        "whitehat", "great learning"
+        "whitehat", "great learning", "tuition", "physics wallah"
     )
 
     private val MOBILE = setOf(
@@ -709,7 +716,8 @@ object CategoryMapping {
 
     private val INSURANCE = setOf(
         "insurance", "lic", "policy", "hdfc life", "icici pru", "sbi life",
-        "max life", "bajaj allianz", "policybazaar", "acko", "digit"
+        "max life", "bajaj allianz", "policybazaar", "acko", "digit",
+        "aditya birla", "navi", "niva bupa", "star health"
     )
 
     private val TAX = setOf(
